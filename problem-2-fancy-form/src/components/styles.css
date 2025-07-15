@@ -1,0 +1,80 @@
+.currency-form-container {
+  background-color: #f9fafb;
+  color: #1f2937;
+  min-height: 100vh;
+  padding: 2rem;
+}
+
+.currency-form-heading {
+  color: #1f2937;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+
+.input-group {
+  border-radius: 10px;
+  background-color: white;
+  border: 1px solid #d1d5db;
+  padding: 0.75rem 1rem;
+}
+
+.currency-form-error {
+  color: #ef4444;
+  font-size: 0.875rem;
+  margin-top: 0.25rem;
+}
+
+.input {
+  font-size: 1.5rem;
+  padding: 12px;
+}
+
+.input-title {
+  font-size: 14px;
+  font-weight: 400;
+  color: rgb(69, 71, 69);
+}
+
+.currency-icon {
+  margin-right: 5px;
+  max-width: 25px;
+}
+
+.currency-text {
+  font-weight: 600;
+}
+
+.swap-button {
+  background-color: #bfdbfe; /* blue-100 */
+  border: 1px solid #3b82f6; /* blue-500 */
+  color: #1d4ed8; /* blue-700 */
+  padding: 0.75rem;
+  border-radius: 9999px; /* rounded-full */
+  transition: background-color 0.2s ease;
+  margin: 20px 10px;
+}
+
+.swap-button:hover {
+  background-color: #93c5fd;
+}
+
+.switch-icon {
+  width: 25px;
+}
+
+@media (min-width: 768px) {
+  .md-flex-row {
+    flex-direction: row;
+  }
+  .swap-button {
+    margin-top: 35px;
+  }
+}
+
+.currency-form-summary {
+  margin-top: 1.5rem;
+  font-size: 1.125rem;
+  font-weight: 500;
+  color: #1f2937;
+}
