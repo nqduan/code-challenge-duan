@@ -97,7 +97,7 @@ export default function CurrencyForm() {
               })}
               type='number'
               placeholder='Amount'
-              className='input font-semibold w-full border-none focus:outline-none'
+              className='input w-full border-none focus:outline-none'
             />
             <CurrencySelect
               value={fromCurrency}
@@ -118,7 +118,7 @@ export default function CurrencyForm() {
             <input
               disabled
               value={convertedAmount}
-              className='input text-2xl font-semibold w-full border-none bg-transparent'
+              className='input w-full border-none'
             />
             <CurrencySelect
               value={toCurrency}
